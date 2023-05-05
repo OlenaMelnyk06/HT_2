@@ -6,6 +6,10 @@
   <version>1.0-SNAPSHOT</version>
   <name>Archetype - HT_2</name>
   <url>http://maven.apache.org</url>
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -29,6 +33,11 @@
             <artifactId>testng</artifactId>
             <version>7.7.1</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-chrome-driver</artifactId>
+            <version>4.7.2</version>
         </dependency>
 
     </dependencies>
